@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+body p,h1,h2{
+    margin-top: 15px;
+}
+.para-heading,h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  font-size: 3rem;
+  color: #3366cc;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  font-weight: 300;
+}
+h2 {
+  font-size: 1.2rem;
+  color: #3366cc;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+}
+span{
+    color: #3366cc;
+}
+.para-heading{
+    font-size: 1.6rem;
+}
+p {
+  font-size: 1rem;
+  color: #555;
+}
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: #333;
+}
+.author {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: right;
+}
