@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #665544;
+    text-align: center;
+    background-color: #D5D1C7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 450px;
+    margin: 40px auto;
+}
+.border{
+    border:25px solid black;
+    border-image: url(/images/border.gif) 25 25 25 25 round;
+    background-color: #F4F4F4;
+    color: #819397;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.border h1{
+    font-weight:500 ;
+}
+header p{
+    font-size: 15px;
+}
+
+
+
+main{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #E7E3D8;
+
+}
+.bg-img{
+    width: 100%;
+    height: 150px;
+}
+.img1{
+    background-image: url(/images/print-01.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img2{
+    background-image: url(/images/print-02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img3{
+    background-image: url(/images/print-03.jpg);
+    background-size: cover;
+    background-position: center;
+
+}.img4{
+    background-image: url(/images/print-04.jpg);
+    background-size: cover;
+    background-position: center;
+
+}.img5{
+    background-image: url(/images/print-05.jpg);
+    background-size: cover;
+    background-position: center;
+
+}.img6{
+    background-image: url(/images/print-06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container li{
+    list-style-image: url("/images/icon.png");
+    text-align: left;
+    margin-top: 5px;
+}
