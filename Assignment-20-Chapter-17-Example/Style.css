@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/images/dark-wood.jpg");
+    background-size: cover;
+}
+
+.wraper {
+    color: #666666;
+    width: 944px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #8E8B86;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+}
+
+header h3 {
+    font: 13px;
+    font-weight: 500;
+}
+
+header img {
+    width: 140px;
+}
+
+nav {
+    margin-top: 10px;
+    background-color: #AEACA8;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    padding: 10px 20px;
+    color: white;
+    text-transform: capitalize;
+
+
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+figure {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.article-1 {
+    margin-bottom: 40px;
+}
+
+main,
+.article {
+    display: flex;
+}
+
+.section-wraper {
+    width: 70%;
+    border-right: 1px solid #eeeeee;
+
+}
+
+aside {
+    width: 30%;
+}
+
+.figure-text {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.figure-text h2 {
+    font-weight: normal;
+
+}
+
+.figure-text h3 {
+    color: #DE6795;
+    margin: 5px 0 20px 0;
+    font-weight: normal;
+}
+
+
+aside {
+    padding: 30px 20px;
+}
+
+a {
+    color: #DE6795;
+    text-decoration: none;
+    width: 230px;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+}
+
+a:hover {
+    background-color: #eeeeee;
+}
+
+h2 {
+    color: #DE6795;
+    font-weight: normal;
+}
+
+.popular-recipes {
+    margin-bottom: 40px;
+}
+
+aside h2 {
+    margin-bottom: 20px;
+}
+
+aside p {
+    width: 130px;
+}
+
+footer {
+    background-color: #AEACA8;
+    padding: 15px;
+}
+
+footer p {
+    color: white;
+}
